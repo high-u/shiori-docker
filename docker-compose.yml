@@ -1,0 +1,10 @@
+version: '3'
+services:
+  bookmarks:
+    ports:
+      - "8082:8080"
+    volumes:
+      - .:/srv/shiori
+    image: radhifadlillah/shiori
+    restart: always
+
