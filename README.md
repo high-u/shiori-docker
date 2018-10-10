@@ -4,5 +4,5 @@
 
 ```
 docker-compose up -d
-docker-compose exec bookmarks shiori account add shiorin
+docker-compose exec bookmarks shiori account add admin
 ```
